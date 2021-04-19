@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karantina', cursive;
+}
+header{
+
+background: #5CBAFF;
+
+box-shadow: 18px -2px 10px 20px #828282;
+
+margin-bottom: 1px;
+}
+header nav{
+
+width: 40%;
+
+margin: 0 auto;
+}
+header  nav ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+text-transform: capitalize;
+}
+header nav li{
+    
+/* text-decoration: none; */
+    
+/* margin: 4px 0; */
+    
+margin-top: 20px;
+}
+header nav li img{
+    
+margin-top: -12px;
+}
+header nav li a{
+    
+text-decoration: none;
+    
+color: #fff;
+    
+font-size: 16px;
+    
+font-weight: 400;
+}
+.content{
+    
+display: flex;
+}
+.left{
+
+width: 40%;
+
+background: #5CBAFF;
+
+text-align: center;
+}
+.left img{width: 80%;}
+.right_from{
+
+width: 60%;
+
+background: #0093FF;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.from{
+
+/* width: 100%; */
+
+width: 50%;
+}
+.from h3{
+    
+color: #fff;
+    
+margin: 26px 0;
+    
+font-size: 34px;
+    
+text-transform: capitalize;
+}
+.from p{
+    
+color: #fff;
+    
+font-size: 18px;
+    
+margin: -8px 0;
+}
+.from h4{
+    
+color: #fff;
+    
+text-transform: capitalize;
+    
+font-size: 20px;
+    
+margin: 14px 0;
+}
+.from form{
+    
+width: 77%;
+}
+.from form input{
+    
+width: 77%;
+    
+border: antiquewhite;
+    
+padding: 10px 5px 10px 5px;
+    
+margin: 5px 0;
+}
+.from form input[type='submit']{
+    width: 20%;
+    text-transform: capitalize;
+}
+.from ul{
+
+display: flex;
+
+justify-content: space-evenly;
+
+font-size: 9px;
+
+margin: 18px 0;
+
+color: #fff;
+}
+.from ul li{
+
+/* text-decoration: none; */
+
+list-style: none;
+}
